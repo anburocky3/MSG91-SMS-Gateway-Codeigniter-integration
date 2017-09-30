@@ -1,4 +1,10 @@
 # # MSG91-SMS-Gateway-Codeigniter-integration
+
+#Screenshots
+[url=http://postimg.org/image/amkt57bmz/][img]https://s25.postimg.org/amkt57bmz/Screenshot_9.png[/img][/url]
+[url=http://postimg.org/image/c1mdtxkfv/][img]https://s25.postimg.org/c1mdtxkfv/Screenshot_8.png[/img][/url]
+[url=http://postimg.org/image/gnii2ador/][img]https://s25.postimg.org/gnii2ador/Screenshot_7.png[/img][/url]
+
 <h3>Quick steps to integrate to your web/app on the go!</h3>
 <ol>
 	<li> Clone the repository <code>git clone https://github.com/anburocky3/MSG91-SMS-Gateway-Codeigniter-integration.git</code> </li>
