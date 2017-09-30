@@ -1,7 +1,7 @@
 # # MSG91-SMS-Gateway-Codeigniter-integration
 
 #Screenshots
-![Screenshot 1](https://s25.postimg.org/amkt57bmz/Screenshot_9.png)
+![Screenshot 1](https://s25.postimg.org/w8ztm8a7j/Screenshot_9.png)
 
 [url=http://postimg.org/image/amkt57bmz/][img]https://s25.postimg.org/amkt57bmz/Screenshot_9.png[/img][/url]
 [url=http://postimg.org/image/c1mdtxkfv/][img]https://s25.postimg.org/c1mdtxkfv/Screenshot_8.png[/img][/url]
