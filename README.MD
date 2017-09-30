@@ -1,11 +1,16 @@
 # # MSG91-SMS-Gateway-Codeigniter-integration
 
-#Screenshots
-![Screenshot 1](https://s25.postimg.org/w8ztm8a7j/Screenshot_9.png)
+<h3>#Screenshots Overview</h3>
+1. Enter SMS text and recipent number whom you want to send. You can enter multiple numbers separated by Comma.
+![Enter number & SMS Text ](https://s25.postimg.org/cr566aspb/Screenshot_7.png)
 
-[url=http://postimg.org/image/amkt57bmz/][img]https://s25.postimg.org/amkt57bmz/Screenshot_9.png[/img][/url]
-[url=http://postimg.org/image/c1mdtxkfv/][img]https://s25.postimg.org/c1mdtxkfv/Screenshot_8.png[/img][/url]
-[url=http://postimg.org/image/gnii2ador/][img]https://s25.postimg.org/gnii2ador/Screenshot_7.png[/img][/url]
+2. If the SMS delivers successfully, then it will show the success alert box.
+![IF SMS Sent, Status shown](https://s25.postimg.org/w8ztm8a7j/Screenshot_9.png)
+
+3. If the SMS not delivered, then it will show the error alert box.
+
+![IF SMS Not Sent, Status shown](https://s25.postimg.org/z32yzok3j/Screenshot_8.png)
+
 
 <h3>Quick steps to integrate to your web/app on the go!</h3>
 <ol>
