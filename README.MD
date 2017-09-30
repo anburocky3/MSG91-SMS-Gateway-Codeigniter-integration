@@ -2,9 +2,11 @@
 
 <h3>#Screenshots Overview</h3>
 1. Enter SMS text and recipent number whom you want to send. You can enter multiple numbers separated by Comma.
-![Enter number & SMS Text ](https://s25.postimg.org/cr566aspb/Screenshot_7.png)
+
+![Enter number & SMS Text](https://s25.postimg.org/cr566aspb/Screenshot_7.png)
 
 2. If the SMS delivers successfully, then it will show the success alert box.
+
 ![IF SMS Sent, Status shown](https://s25.postimg.org/w8ztm8a7j/Screenshot_9.png)
 
 3. If the SMS not delivered, then it will show the error alert box.
