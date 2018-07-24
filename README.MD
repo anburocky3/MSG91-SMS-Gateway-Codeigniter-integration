@@ -2,7 +2,8 @@
 
 <h3>#Screenshots Overview</h3>
 1. Enter SMS text and recipent number whom you want to send. You can enter multiple numbers separated by Comma.
-[![IF SMS Sent, Status shown](https://github.com/anburocky3/MSG91-SMS-Gateway-Codeigniter-integration/raw/master/screenshots/1.png)](#screenshots)
+
+[![With UserInterface](https://github.com/anburocky3/MSG91-SMS-Gateway-Codeigniter-integration/raw/master/screenshots/1.png)](#screenshots)
 
 
 2. If the SMS delivers successfully, then it will show the success alert box.
@@ -32,9 +33,9 @@
 
 <p class="mt5">Note: Never forget to autoload the library & helper files on <code>applications/config/autoload.php</code> file.</p>
 
-# #Changelog (24, July - 2018)
+<h3><strong>#Changelog (24, July - 2018)</strong></h3>
 <ol>
-	<li> Updated to Latest Codeigniter 3.1.9</li>
+	<li> Upgraded to Latest Codeigniter 3.1.9</li>
 	<li> Upgraded from<code>SendSMS (GET)</code> to <code>SendSMS_V2 (POST)</code></li>
 	<li> Updated Screenshots in<code>screenshots</code> folder.</li>
 	<li> Optimized Error handling.</li>
