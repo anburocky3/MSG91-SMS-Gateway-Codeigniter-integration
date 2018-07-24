@@ -1,17 +1,14 @@
-# # MSG91-SMS-Gateway-Codeigniter-integration
+# # MSG91-SMS-Gateway-Codeigniter-integration (Latest)
 
 <h3>#Screenshots Overview</h3>
 1. Enter SMS text and recipent number whom you want to send. You can enter multiple numbers separated by Comma.
+[![IF SMS Sent, Status shown](https://github.com/anburocky3/MSG91-SMS-Gateway-Codeigniter-integration/raw/master/screenshots/1.png)](#screenshots)
 
-![Enter number & SMS Text](https://s25.postimg.org/cr566aspb/Screenshot_7.png)
 
 2. If the SMS delivers successfully, then it will show the success alert box.
-
-![IF SMS Sent, Status shown](https://s25.postimg.org/w8ztm8a7j/Screenshot_9.png)
+[![IF SMS Sent, Status shown](https://github.com/anburocky3/MSG91-SMS-Gateway-Codeigniter-integration/raw/master/screenshots/2.png)](#screenshots)
 
 3. If the SMS not delivered, then it will show the error alert box.
-
-![IF SMS Not Sent, Status shown](https://s25.postimg.org/z32yzok3j/Screenshot_8.png)
 
 
 <h3>Quick steps to integrate to your web/app on the go!</h3>
@@ -34,3 +31,11 @@
 </ol>
 
 <p class="mt5">Note: Never forget to autoload the library & helper files on <code>applications/config/autoload.php</code> file.</p>
+
+# #Changelog (24, July - 2018)
+<ol>
+	<li> Updated to Latest Codeigniter 3.1.9</li>
+	<li> Upgraded from<code>SendSMS (GET)</code> to <code>SendSMS_V2 (POST)</code></li>
+	<li> Updated Screenshots in<code>screenshots</code> folder.</li>
+	<li> Optimized Error handling.</li>
+</ol>

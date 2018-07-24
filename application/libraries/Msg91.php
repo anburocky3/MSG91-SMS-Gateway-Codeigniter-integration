@@ -8,8 +8,8 @@ class Msg91 {
 
 	public function __construct () {
 		$this->ci =& get_instance();
-        $this->authKey = "166242Awy9p2Ug5970c530";
-        $this->senderID = "Defaul";
+        $this->authKey = "YOUR-AUTH-KEY";
+        $this->senderID = "YOUR-SENDER-ID";
 	}
 
     public function send($to, $message) {
@@ -17,52 +17,67 @@ class Msg91 {
         $message = urlencode($message);
 
         //Define route
-        $route = 4;
+        $route = "4";
+
         //Prepare you post parameters
-        $postData = array(
-            'authkey' => $this->authKey,
-            'mobiles' => $to,
-            'message' => $message,
-            'sender' => $this->senderID,
-            'route' => $route
-        );
+        $postData = '{
+            "sender": "'.$this->senderID.'",
+            "route": "'.$route.'",
+            "country": "91",
+            "sms": [
+                {
+                    "message": "'.$message.'",
+                    "to": [
+                        "'.$to.'"
+                    ]
+                }
+            ]
+        }';        
 
         //API URL
-        $url="http://api.msg91.com/api/sendhttp.php";
+        $url="http://api.msg91.com/api/v2/sendsms";
 
         // init the resource
         $ch = curl_init();
         curl_setopt_array($ch, array(
-            CURLOPT_URL => $url,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_POST => true,
-            CURLOPT_POSTFIELDS => $postData
-            //,CURLOPT_FOLLOWLOCATION => true
+        CURLOPT_URL => $url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => "",
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 30,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => "POST",
+
+        // CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => $postData,
+        CURLOPT_SSL_VERIFYHOST => 0,
+        CURLOPT_SSL_VERIFYPEER => 0,
+        CURLOPT_HTTPHEADER => array(
+            "authkey: $this->authKey",
+            "content-type: application/json"),
         ));
 
-
-        //Ignore SSL certificate verification
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-
-
         //get response
-        $output = curl_exec($ch);
-
-        //Print error if any
-        if(curl_errno($ch))
-        {
-            echo 'error:' . curl_error($ch);
-        }
-
+        $response = curl_exec($ch);
+        $err = curl_error($ch);
+        
         curl_close($ch);
 
-        if ($output) {
-            return TRUE;
+        if ($err) {
+          echo "cURL Error #:" . $err;
         } else {
 
-            return FALSE;
+            $result = json_decode($response);
+
+            if ($result->type === "success") {
+                return TRUE;
+            } else {
+
+                return FALSE;
+            }        
         }
+
+        
 	}
 
 }

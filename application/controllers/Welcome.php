@@ -18,6 +18,7 @@ class Welcome extends CI_Controller {
 			$message = $this->input->post('message');
 
 			if($to) {
+
 				if($this->msg91->send($to, $message) == TRUE)  {
 					$this->session->set_flashdata('update_status', '
 						<div class="alert alert-success">
