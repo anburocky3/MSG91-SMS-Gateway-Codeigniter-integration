@@ -37,7 +37,7 @@
 <ol>
 	<li> Upgraded to Latest Codeigniter 3.1.9</li>
 	<li> Upgraded from<code>SendSMS (GET)</code> to <code>SendSMS_V2 (POST)</code></li>
-	<li> Added: CheckSMSBalance() method to check balance. Now, you can send message only if it has balance credit.</li>
+	<li> Added:<code>CheckSMSBalance()</code> method to check balance. Now, you can send message only if it has balance credit.</li>
 	<li> Updated Screenshots in<code>screenshots</code> folder.</li>
 	<li> Optimized Error handling.</li>
 </ol>
