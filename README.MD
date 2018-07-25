@@ -33,7 +33,7 @@
 
 <p class="mt5">Note: Never forget to autoload the library & helper files on <code>applications/config/autoload.php</code> file.</p>
 
-<h3><strong>#Changelog (24, July - 2018)</strong></h3>
+<h3><strong>#Changelog (25, July - 2018)</strong></h3>
 <ol>
 	<li> Upgraded to Latest Codeigniter 3.1.9</li>
 	<li> Upgraded from<code>SendSMS (GET)</code> to <code>SendSMS_V2 (POST)</code></li>
