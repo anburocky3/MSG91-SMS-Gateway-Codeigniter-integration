@@ -47,8 +47,3 @@
 	<li> Updated Screenshots in<code>screenshots</code> folder.</li>
 	<li> Optimized Error handling.</li>
 </ol>
-
-<h5>(15, May - 2019)</h5>
-<ol>
-	<li> Upgraded from<code>3.1.9</code> to<code>3.1.10</code></li>
-</ol>
