@@ -33,11 +33,17 @@
 
 <p class="mt5">Note: Never forget to autoload the library & helper files on <code>applications/config/autoload.php</code> file.</p>
 
-<h3><strong>#Changelog (25, July - 2018)</strong></h3>
+<h3><strong>#Changelog </strong></h3>
+<h5>(25, July - 2018)</h5>
 <ol>
-	<li> Upgraded to Latest Codeigniter 3.1.9</li>
+	<li> Upgraded to Codeigniter 3.1.9</li>
 	<li> Upgraded from<code>SendSMS (GET)</code> to <code>SendSMS_V2 (POST)</code></li>
 	<li> Added:<code>CheckSMSBalance()</code> method to check balance. Now, you can send message only if it has balance credit.</li>
 	<li> Updated Screenshots in<code>screenshots</code> folder.</li>
 	<li> Optimized Error handling.</li>
+</ol>
+
+<h5>(15, May - 2019)</h5>
+<ol>
+	<li> Upgraded from<code>3.1.9</code> to<code>3.1.10</code></li>
 </ol>
