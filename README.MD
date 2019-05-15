@@ -34,6 +34,11 @@
 <p class="mt5">Note: Never forget to autoload the library & helper files on <code>applications/config/autoload.php</code> file.</p>
 
 <h3><strong>#Changelog </strong></h3>
+<h5>(15, May - 2019)</h5>
+<ol>
+	<li> Upgraded from<code>3.1.9</code> to<code>3.1.10</code></li>
+</ol>
+
 <h5>(25, July - 2018)</h5>
 <ol>
 	<li> Upgraded to Codeigniter 3.1.9</li>
